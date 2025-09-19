@@ -1,1 +1,33 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoundStrength Workout Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="branding">
+        <h1>FoundStrength Workout Tracker</h1>
+        <p class="tagline">Log your 3-day full-body training sessions with ease.</p>
+      </div>
+      <div class="day-selector">
+        <label for="day-select">Select Training Day</label>
+        <select id="day-select" aria-label="Select Training Day">
+          <!-- Populated by script -->
+        </select>
+      </div>
+    </header>
+
+    <main id="days-container" class="days-container">
+      <!-- Day sections injected here -->
+    </main>
+
+    <footer class="site-footer">
+      <p>Progress is built one set at a time. Keep pushing!</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
